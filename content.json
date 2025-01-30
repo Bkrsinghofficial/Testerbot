@@ -1,0 +1,313 @@
+{"intents":
+   [
+     { 
+     "tag": "Issue 1",
+     "input":[" test scenario for scrolling gesture getting a bit more time for some users"," scrolling gesture getting a bit more time for some users","Scrolling gesture issue"],
+     "responses":[{
+      "Test Scenario": "Scrolling Gesture Getting a Bit More Time for Some Users in App",
+      "Test Steps": [
+        {
+          "Step 1": "Connect to the network using a device and a browser of your choice",
+          "Expected Result": "The device should be able to connect to the network without any errors or delays"
+        },
+        {
+          "Step 2": "Open the app and navigate to a screen that requires scrolling, such as a product list or a news feed",
+          "Expected Result": "The app should load quickly and display the correct content"
+        },
+        {
+          "Step 3": "Perform a scrolling gesture on the screen by swiping up or down",
+          "Expected Result": "The app should scroll smoothly and responsively"
+        },
+        {
+          "Step 4": "Change the network condition to a slower or a faster one, such as 3G or 5G",
+          "Expected Result": "The app should adapt to the network change and maintain the scrolling performance"
+        },
+        {
+          "Step 5": "Repeat Step 3 with the new network condition",
+          "Expected Result": "The app should scroll smoothly and responsively, without any noticeable difference in time or quality"
+        },
+        {
+          "Step 6": "Change the device type to a different one, such as a tablet or a phone",
+          "Expected Result": "The app should adjust to the device size and resolution and maintain the scrolling performance"
+        },
+        {
+          "Step 7": "Repeat Step 3 with the new device type",
+          "Expected Result": "The app should scroll smoothly and responsively, without any noticeable difference in time or quality"
+        }
+      ]
+    }
+  ]    
+            },
+
+            {
+
+            
+                     "tag":"Issue 2",
+            
+                     "input":[" Test Scenario: Possible test scenarios for online performance", " Test Scenario: Possible test scenarios for Good network connection","online performance","Online performance issue"],
+                     "responses": [{
+                      "Load Testing": "Simulate high user traffic to evaluate system performance under peak load.",
+                      "Concurrency Testing": "Assess how well the system handles multiple simultaneous users.",
+                      "Scalability Testing": "Evaluate the system's ability to scale up with increased workload and user base.",
+                      "Stress Testing": "Apply extreme conditions to determine system stability and identify breaking points.",
+                      "Usability Testing": "Assess the user interface for ease of navigation and overall user experience.",
+                      "Security Testing": "Check for vulnerabilities and assess the effectiveness of security measures in place.",
+                      "Compatibility Testing": "Ensure the platform works well across different devices, browsers, and operating systems.",
+                      "Data Integrity Testing": "Validate the accuracy and consistency of data stored and retrieved by the system.",
+                      "Performance Monitoring": "Implement continuous monitoring to identify and address performance issues in real-time.",
+                      "Network Latency Testing": "Evaluate the impact of network delays on system response time.",
+                      "Database Performance Testing": "Assess the efficiency of database queries and data retrieval processes.",
+                      "Failover Testing": "Test the system's ability to switch to a backup server or system in case of a failure.",
+                      "Mobile Responsiveness Testing": "Ensure that the platform functions seamlessly on mobile devices.",
+                      "Browser Compatibility Testing": "Verify that the system performs consistently across various web browsers.",
+                      "User Load Distribution Testing": "Evaluate how well the system distributes the user load across servers or resources.",
+                      "Scalability Under Variable Load": "Test how well the system scales with varying levels of user activity.",
+                      "Session Management Testing": "Assess the system's ability to manage user sessions efficiently.",
+                      "Transaction Testing": "Validate the accuracy and reliability of financial transactions or critical operations.",
+                      "Data Volume Testing": "Evaluate the system's performance with different volumes of data.",
+                      "Third-Party Integration Testing": "Check the performance of integrations with external services or APIs."}]
+                    },
+                    
+                    {
+                      "tag":"Issue 3",
+                      "input":["Good network connection","testscenario: Good Network","Network issue"],
+                      "responses": [{ "Test Scenario": "Good Network Connection",
+                      "Test Steps": [
+                        {
+                          "Step 1": "Connect to the network using a device and a browser of your choice",
+                          "Expected Result": "The device should be able to connect to the network without any errors or delays"
+                        },
+                        {
+                          "Step 2": "Open a web page or an application that requires network access",
+                          "Expected Result": "The web page or the application should load quickly and display the correct content"
+                        },
+                        {
+                          "Step 3": "Perform a network speed test using a tool such as [Obkio](https://obkio.com/blog/network-testing/) or [Google Cloud](https://cloud.google.com/network-intelligence-center/docs/connectivity-tests/concepts/common-use-cases)",
+                          "Expected Result": "The network speed test should show high throughput, low latency, and low packet loss"
+                        },
+                        {
+                          "Step 4": "Check the network security using a tool such as [BrowserStack](https://www.browserstack.com/guide/how-to-create-test-scenarios) or [Nmap]",
+                          "Expected Result": "The network security test should show no vulnerabilities or threats, and the network should have proper encryption and firewall settings"
+                        }
+                      ]
+                    }
+                  
+                      ]
+                      
+                    },
+                    
+                  
+            
+            
+            
+{
+
+         "tag": "Issue 4",
+
+         "input":[" Test Scenario: User Gets Something Wrong Error ","User Gets Something Wrong Error"],
+
+         "responses":[{
+          "test_scenario": "User Gets Something Wrong Error",
+          "test_objective": "To test the functionality and user experience of the error message displayed when a user makes a mistake.",
+          "target_users": "All users",
+          "pre_conditions": [
+            "User is logged in to the system.",
+            "User is attempting to complete a task that requires them to input specific information."
+          ],
+          "test_steps": [
+            "Intentionally enter incorrect information in the required field.",
+            "Submit the form.",
+            "Verify that an error message is displayed.",
+            "Evaluate the following aspects of the error message:",
+            {
+              "clarity": "Is the error message clear and easy to understand? Does it clearly explain what the user did wrong?",
+              "specificity": "Does the error message pinpoint the exact error? Does it provide specific instructions on how to correct the error?",
+              "helpfulness": "Does the error message offer any helpful suggestions or resources to guide the user towards the correct solution?"
+            },
+            "Attempt to correct the error and resubmit the form.",
+            "Verify that the error message disappears after the error is corrected."
+          ],
+          "expected_results": [
+            "An error message should be displayed when the user enters incorrect information.",
+            "The error message should be clear, specific, and helpful.",
+            "The error message should disappear after the error is corrected."
+          ]
+        }
+      ]
+        },
+        {
+            "tag":  "Issue 5",
+            "input":["Getting Freezing Issue in App","test scenario for Getting Freezing Issue in App"],
+            "responses": [{
+              "Test Scenario": "Getting Freezing Issue in App",
+              "Test Steps": [
+                {
+                  "Step 1": "Launch the app on a device of your choice",
+                  "Expected Result": "The app should launch successfully and display the home screen"
+                },
+                {
+                  "Step 2": "Navigate to different screens or features of the app",
+                  "Expected Result": "The app should navigate smoothly and load the content quickly"
+                },
+                {
+                  "Step 3": "Perform various actions or operations on the app, such as tapping, swiping, scrolling, zooming, etc.",
+                  "Expected Result": "The app should respond to the user inputs and perform the actions correctly"
+                },
+                {
+                  "Step 4": "Change the device orientation from portrait to landscape or vice versa",
+                  "Expected Result": "The app should adjust to the device orientation and maintain the layout and functionality"
+                },
+                {
+                  "Step 5": "Switch to a different app or the device's home screen and then return to the app",
+                  "Expected Result": "The app should resume from where it was left and retain the state and data"
+                },
+                {
+                  "Step 6": "Change the network condition to a slower or a faster one, such as 3G or 5G",
+                  "Expected Result": "The app should adapt to the network change and handle the data transfer accordingly"
+                },
+                {
+                  "Step 7": "Repeat Steps 2 to 6 with the new network condition",
+                  "Expected Result": "The app should not freeze or crash and continue to function normally"
+                },
+                {
+                  "Step 8": "Close the app and relaunch it",
+                  "Expected Result": "The app should restart without any errors or delays"
+                }
+              ]
+            }
+            ]
+           },
+           {
+            "tag":  "Issue 6",
+            "input":["Test Case Scenario: Many Users Reporting Unavailable Sizes","Many Users Reporting Unavailable Sizes","unavailable size issue"],
+            "responses": [{
+              "Issue": "Many users are reporting that the website is displaying inaccurate information regarding the available sizes of products. This results in users adding items to their cart only to discover they are not available in their desired size upon checkout.",
+              "Test Objectives": [
+                "Verify that the website displays accurate and up-to-date information about available sizes for all products.",
+                "Ensure users can add only available sizes to their cart.",
+                "Test functionality across various browsers and devices."
+              ],
+              "Test Cases": [
+                {
+                  "Test Case ID": "TC-001",
+                  "Test Case Description": "User selects a product and navigates to the size chart.",
+                  "Expected Result": "The size chart should display accurate information about the available sizes."
+                },
+                {
+                  "Test Case ID": "TC-002",
+                  "Test Case Description": "User chooses a product and selects a size from the dropdown.",
+                  "Expected Result": "The selected size should be highlighted and added to the cart."
+                },
+                {
+                  "Test Case ID": "TC-003",
+                  "Test Case Description": "User attempts to add a product with an unavailable size to the cart.",
+                  "Expected Result": "The website should display a clear message indicating the size is unavailable and prevent it from being added to the cart."
+                },
+                {
+                  "Test Case ID": "TC-004",
+                  "Test Case Description": "User tries to add multiple items with different sizes to the cart.",
+                  "Expected Result": "The website should only allow the addition of items with available sizes and display a notification for unavailable ones."
+                },
+                {
+                  "Test Case ID": "TC-005",
+                  "Test Case Description": "User adds an item to the cart and then changes the size.",
+                  "Expected Result": "The website should update the cart to reflect the new size."
+                },
+                {
+                  "Test Case ID": "TC-006",
+                  "Test Case Description": "User tries to checkout with items that have unavailable sizes.",
+                  "Expected Result": "The website should highlight unavailable sizes in the cart and prevent the user from completing the checkout."
+                },
+                {
+                  "Test Case ID": "TC-007",
+                  "Test Case Description": "Test the website functionality with different browser combinations (Chrome, Firefox, Safari) and devices (desktop, mobile).",
+                  "Expected Result": "The website should display accurate size information and cart functionality should work seamlessly across all platforms."
+                }
+              ],
+              "Additional Test Cases": [
+                "Test the website's performance under high user load.",
+                "Test the website's responsiveness to dynamic product availability changes.",
+                "Test the website's accessibility for users with disabilities.",
+                "Test the website's translation functionality for different languages."
+              ],
+              "Pass/Fail Criteria": {
+                "Pass": "A test case passes if it meets the expected result.",
+                "Fail": "A test case fails if it does not meet the expected result or if the website encounters any errors related to size information or cart functionality."
+              },
+              "Expected Outcome": "All test cases should pass, ensuring the website displays accurate size information and allows users to add only available sizes to their cart."
+            }
+          ]
+           },
+           {
+            "tag":  "Issue 7",
+            "input":["Test Scenario: Freezing Issues while Customizing Shoes","Freezing Issues while Customizing Shoes","Customizing Shoes"],
+            "responses": [
+            {
+              "Test Case Scenario": "Many Users Reporting Unavailable Sizes",
+              "Issue": "Many users are reporting that the website is displaying inaccurate information regarding the available sizes of products. This results in users adding items to their cart only to discover they are not available in their desired size upon checkout.",
+              "Test Objectives": [
+                "Verify that the website displays accurate and up-to-date information about available sizes for all products.",
+                "Ensure users can add only available sizes to their cart.",
+                "Test functionality across various browsers and devices."
+              ],
+              "Test Cases": [
+                {
+                  "Test Case ID": "TC-001",
+                  "Test Case Description": "User selects a product and navigates to the size chart.",
+                  "Expected Result": "The size chart should display accurate information about the available sizes."
+                },
+                {
+                  "Test Case ID": "TC-002",
+                  "Test Case Description": "User chooses a product and selects a size from the dropdown.",
+                  "Expected Result": "The selected size should be highlighted and added to the cart."
+                },
+                {
+                  "Test Case ID": "TC-003",
+                  "Test Case Description": "User attempts to add a product with an unavailable size to the cart.",
+                  "Expected Result": "The website should display a clear message indicating the size is unavailable and prevent it from being added to the cart."
+                },
+                {
+                  "Test Case ID": "TC-004",
+                  "Test Case Description": "User tries to add multiple items with different sizes to the cart.",
+                  "Expected Result": "The website should only allow the addition of items with available sizes and display a notification for unavailable ones."
+                },
+                {
+                  "Test Case ID": "TC-005",
+                  "Test Case Description": "User adds an item to the cart and then changes the size.",
+                  "Expected Result": "The website should update the cart to reflect the new size."
+                },
+                {
+                  "Test Case ID": "TC-006",
+                  "Test Case Description": "User tries to checkout with items that have unavailable sizes.",
+                  "Expected Result": "The website should highlight unavailable sizes in the cart and prevent the user from completing the checkout."
+                },
+                {
+                  "Test Case ID": "TC-007",
+                  "Test Case Description": "Test the website functionality with different browser combinations (Chrome, Firefox, Safari) and devices (desktop, mobile).",
+                  "Expected Result": "The website should display accurate size information and cart functionality should work seamlessly across all platforms."
+                }
+              ],
+              "Additional Test Cases": [
+                "Test the website's performance under high user load.",
+                "Test the website's responsiveness to dynamic product availability changes.",
+                "Test the website's accessibility for users with disabilities.",
+                "Test the website's translation functionality for different languages."
+              ],
+              "Pass/Fail Criteria": {
+                "Pass": "A test case passes if it meets the expected result.",
+                "Fail": "A test case fails if it does not meet the expected result or if the website encounters any errors related to size information or cart functionality."
+              },
+              "Expected Outcome": "All test cases should pass, ensuring the website displays accurate size information and allows users to add only available sizes to their cart."
+            }
+          ]
+           },
+           { 
+                "tag": "goodbye",
+                "input":["Thank you ", "thanks for the info","bye", "adios"],
+                "responses":["ok bye ",
+                             " have a nice day",
+                             "goodbye"] 
+        }
+
+    ]
+}
